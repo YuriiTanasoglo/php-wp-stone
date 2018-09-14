@@ -1,0 +1,246 @@
+/*
+Theme Name: fashionphotographer
+Theme URI: http://fashionphotographer/
+Description: 
+Author: kot
+Author URI: http://fashionphotographer/
+Version: 1.0.0
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    color: #32373c;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.header-wrapper {
+    background: #34495e;
+}
+
+.header {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+
+}
+
+.menu {
+    overflow: hidden;
+    list-style: none;
+}
+
+.menu-trigger {
+    cursor: pointer;
+    text-align: center;
+    display: none;
+    padding: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.menu li {
+    float: left;
+    font-size: 1rem;
+    color: #fff;
+    list-style-type: none;
+    transition: all ease .3s;
+}
+
+.menu li:hover {
+    background-color: #293b4c;
+}
+
+.menu li a {
+    padding: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .menu li {
+        float: none;
+        display: none;
+        text-align: center;
+        transition: none;
+    }
+    .menu-trigger {
+        display: block;
+    }
+}
+
+.current-menu-item {
+    background-color: #293b4c;
+}
+
+
+.start-screen {
+    cursor: pointer;
+}
+
+.main-wrapper{
+    background: #ffffff;
+}
+
+.main-background-wrapper {
+    height: calc(100vh - 64px);
+}
+
+.main {
+    max-width: 1100px;
+
+    margin: auto;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.main_background {
+    position: fixed;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+
+}
+
+.content{
+    padding: 20px;
+}
+
+.main a{
+    color: #32373c;
+    transition: all ease .3s;
+}
+
+.main a:hover {
+    color: #293b4c;
+    box-shadow: 0 2px 0 0 #34495e;
+}
+
+.main p {
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+.footer-wrapper {
+    background: #080808;
+}
+
+.footer-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.footer-left {
+    float: left;
+    overflow: hidden;
+}
+
+.footer-left img {
+    float: left;
+}
+
+.footer-left p {
+    float: left;
+    color: #fefefe;
+    font-size: 14px;
+    padding: 14px 0 0 10px;
+}
+
+.footer-left p a {
+    color: #fefefe;
+}
+
+.footer-right {
+    float: right;
+    margin-top: 10px;
+}
+
+.footer-right a:hover {
+    text-decoration: none;
+}
+
+.footer-right img {
+    margin: 0 10px;
+}
+
+
+/*about me*/
+
+.img-left {
+    float: left;
+    margin: 0 20px 0 0 !important;
+}
+
+/*portfolio*/
+
+.portfolio-image {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.portfolio-image:nth-child(2n) {
+    float: right;
+}
+
+/*wp_setting*/
+/*widget*/
+.sidebar-widget li {
+    margin-bottom: 10px;
+}
+
+.widget_categories li {
+    float: left;
+    width: 50%;
+}
+
+.footer-info.widget_nav_menu ul li {
+    float: none;
+}
+
+.footer-info.widget_nav_menu ul li a {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*clear*/
+
+.clear {
+    clear: both;
+}
